@@ -1,14 +1,15 @@
 # Julius Skills
 
-Three personal agent skills for now: Caveman base, UI Craft, and Grill Me.
+Four personal agent skills for now: Caveman base, UI Craft, Grill Me, and Loop Factory.
 
-This repo is shaped by three things:
+This repo is shaped by four things:
 
 - **Caveman** - 70k-star token compression without technical loss. Small mouth, big brain.
 - **UI craft** - accessible, performant interfaces with strong aesthetic direction, not generic AI slop.
 - **Grill Me** - calibrated pressure before hard critique, so challenge matches user knowledge and comfort.
+- **Loop Factory** - spec-driven agent loop where tasks move through inbox → active → archive with a real review gate.
 
-Point is control. Agents should be terse when talking, precise when building interfaces, and calibrated when challenging plans.
+Point is control. Agents should be terse when talking, precise when building interfaces, calibrated when challenging plans, and disciplined when running build loops.
 
 ## Quickstart
 
@@ -74,6 +75,20 @@ Use when you want:
 - recommended answers with each question
 - pressure matched to beginner, working, or expert knowledge
 - softer or harder grilling on command
+
+### `loop-factory`
+
+Spec-driven agent loop. Coding tasks live as markdown specs that move through `inbox → active → archive`, get implemented by Claude Code or Codex, and must pass a review gate before they count as done. State is just which folder a spec is in. The governing rule: automate implementation and verification, not product decisions.
+
+Use when you want:
+
+- repeatable, reviewable agent work instead of one-off prompting
+- visible task state (inbox / active / archive) with no dashboard
+- generated implementation, review, and backprop prompts for either agent
+- a hard review gate before anything is marked done
+- to install or scaffold the `loop-factory` CLI into a project
+
+Pairs with the [Loop-Factory](https://github.com/JuliusBrussee/Loop-Factory) repo, which ships the CLI and native Claude/Codex adapters.
 
 ## UI Craft Standard
 
