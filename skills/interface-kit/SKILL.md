@@ -1,5 +1,5 @@
 ---
-name: ui-craft
+name: interface-kit
 description: |
   Authoritative guide for implementing stunning, accessible, performant UI. Synthesizes
   design engineering philosophy, accessibility standards, animation principles, spatial design,
@@ -11,7 +11,7 @@ description: |
   "UI implementation", "component styling", "animation", "accessibility"
 ---
 
-# UI Craft: Implementation Guide for Exceptional Interfaces
+# Interface Kit: Implementation Guide for Exceptional Interfaces
 
 > If a DESIGN.md exists at the project root, its tokens and specifications override all defaults in this skill. This skill provides sensible defaults for when no design system exists, and implementation guidance that applies regardless.
 

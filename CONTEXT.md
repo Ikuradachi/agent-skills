@@ -2,17 +2,17 @@
 
 ## Domain
 
-This repository is a public skill collection for AI coding agents. For now it publishes `caveman`, `ui-craft`, `grill-me`, and `loop-factory`.
+This repository is a public skill collection for AI coding agents. For now it publishes `caveman`, `interface-kit`, `grill-me`, and `loop-factory`.
 
 ## Maintainer Identity
 
-Julius Brussee is the creator of Caveman and related agent tooling. Repo voice can reference token efficiency, terse agent communication, and UI craft.
+Julius Brussee is the creator of Caveman and related agent tooling. Repo voice can reference token efficiency, terse agent communication, and interface craft.
 
 ## Core Concepts
 
 - **Skill** - installable instruction directory, usually `SKILL.md` plus optional references or scripts.
 - **Caveman** - communication compression style that removes filler while preserving technical detail.
-- **UI craft** - implementation discipline for accessible, performant, visually specific interfaces.
+- **Interface Kit** - implementation discipline for accessible, performant, visually specific interfaces.
 - **Grill Me** - calibrated interview workflow that assesses knowledge and desired pressure before challenging a plan.
 - **Loop Factory** - spec-driven agent loop; tasks are markdown specs that move through inbox → active → archive and pass a review gate before counting as done.
 - **Progressive disclosure** - agents read the smallest useful context first, then load linked references only as needed.

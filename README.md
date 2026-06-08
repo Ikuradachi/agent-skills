@@ -1,11 +1,11 @@
 # Julius Skills
 
-Four personal agent skills for now: Caveman base, UI Craft, Grill Me, and Loop Factory.
+Four personal agent skills for now: Caveman base, Interface Kit, Grill Me, and Loop Factory.
 
 This repo is shaped by four things:
 
 - **Caveman** - 70k-star token compression without technical loss. Small mouth, big brain.
-- **UI craft** - accessible, performant interfaces with strong aesthetic direction, not generic AI slop.
+- **Interface Kit** - accessible, performant interfaces with strong aesthetic direction, not generic AI slop.
 - **Grill Me** - calibrated pressure before hard critique, so challenge matches user knowledge and comfort.
 - **Loop Factory** - spec-driven agent loop where tasks move through inbox → active → archive with a real review gate.
 
@@ -34,7 +34,7 @@ Most agent output fails in three boring ways: too many words, UI that looks like
 This repo keeps three fixes close:
 
 1. **Speak less, say more.** Caveman cuts output tokens while preserving exact commands, code, errors, and technical meaning.
-2. **Build interfaces with taste.** UI Craft starts from accessibility, performance, typography, spatial rhythm, color roles, and concrete interaction states.
+2. **Build interfaces with taste.** Interface Kit starts from accessibility, performance, typography, spatial rhythm, color roles, and concrete interaction states.
 3. **Challenge at the right altitude.** Grill Me assesses knowledge and desired pressure first, then asks one question at a time.
 
 ## Skills
@@ -50,7 +50,7 @@ Use when you want:
 - exact code, command, error, and API preservation
 - persistent terse style until user exits with "normal mode"
 
-### `ui-craft`
+### `interface-kit`
 
 Implementation guide for high-quality UI. Synthesizes accessibility, performance, typography, layout, color systems, motion, interaction states, and component craft.
 
@@ -90,7 +90,7 @@ Use when you want:
 
 Pairs with the [Loop-Factory](https://github.com/JuliusBrussee/Loop-Factory) repo, which ships the CLI and native Claude/Codex adapters.
 
-## UI Craft Standard
+## Interface Kit Standard
 
 If a repo has `DESIGN.md`, it wins. Otherwise UI work should still have a point of view:
 

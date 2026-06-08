@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repo publishes four Julius Brussee agent skills for now: `caveman`, `ui-craft`, `grill-me`, and `loop-factory`. Treat it as an installable skill collection, not a product website.
+This repo publishes four Julius Brussee agent skills for now: `caveman`, `interface-kit`, `grill-me`, and `loop-factory`. Treat it as an installable skill collection, not a product website.
 
 ## Editing Rules
 
@@ -26,7 +26,7 @@ node scripts/verify-skills.mjs
 node scripts/list-skills.mjs
 ```
 
-For `ui-craft` changes, preserve priorities:
+For `interface-kit` changes, preserve priorities:
 
 - accessibility
 - performance
