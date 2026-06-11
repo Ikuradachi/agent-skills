@@ -1,13 +1,14 @@
 # Julius Skills
 
-Four personal agent skills for now: Caveman base, Interface Kit, Grill Me, and Loop Factory.
+Five personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, and Junior to Senior.
 
-This repo is shaped by four things:
+This repo is shaped by five things:
 
 - **Caveman** - 70k-star token compression without technical loss. Small mouth, big brain.
 - **Interface Kit** - accessible, performant interfaces with strong aesthetic direction, not generic AI slop.
 - **Grill Me** - calibrated pressure before hard critique, so challenge matches user knowledge and comfort.
 - **Loop Factory** - spec-driven agent loop where tasks move through inbox → active → archive with a real review gate.
+- **Junior to Senior** - adversarial senior review that treats agent output as junior work and upgrades it with codebase + web research.
 
 Point is control. Agents should be terse when talking, precise when building interfaces, calibrated when challenging plans, and disciplined when running build loops.
 
@@ -89,6 +90,18 @@ Use when you want:
 - to install or scaffold the `loop-factory` CLI into a project
 
 Pairs with the [Loop-Factory](https://github.com/JuliusBrussee/Loop-Factory) repo, which ships the CLI and native Claude/Codex adapters.
+
+### `junior-to-senior`
+
+Adversarial review skill for agent-generated plans. Treats the current output as the work of a junior, then constructs a senior reviewer grounded in codebase research and web research of current best practices. Diagnoses altitude failures — plans that are foggy on the hard parts or tunneled into details with no product vision — and rewrites them into a scoped, state-of-the-art version with evidence behind every finding.
+
+Use when you want:
+
+- a staff-engineer-grade review of a plan before committing to it
+- plans that commit on interfaces, versions, and failure modes instead of hand-waving
+- best practices refreshed past the model's training cutoff via live web research
+- a clear delta between the original plan and the upgraded one
+- product decisions surfaced as open questions instead of silently invented
 
 ## Interface Kit Standard
 
