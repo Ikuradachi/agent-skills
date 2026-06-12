@@ -2,7 +2,7 @@
 
 ## Domain
 
-This repository is a public skill collection for AI coding agents. For now it publishes `caveman`, `interface-kit`, `grill-me`, and `loop-factory`.
+This repository is a public skill collection for AI coding agents. For now it publishes `caveman`, `interface-kit`, `grill-me`, `loop-factory`, `junior-to-senior`, and `context-canary`.
 
 ## Maintainer Identity
 
@@ -15,6 +15,7 @@ Julius Brussee is the creator of Caveman and related agent tooling. Repo voice c
 - **Interface Kit** - implementation discipline for accessible, performant, visually specific interfaces.
 - **Grill Me** - calibrated interview workflow that assesses knowledge and desired pressure before challenging a plan.
 - **Loop Factory** - spec-driven agent loop; tasks are markdown specs that move through inbox → active → archive and pass a review gate before counting as done.
+- **Context Canary** - per-turn first-line signal (name + turn counter + self-check) that dies visibly when context degrades, paired with a checkpoint-and-reset trip protocol.
 - **Progressive disclosure** - agents read the smallest useful context first, then load linked references only as needed.
 
 ## Repository Shape

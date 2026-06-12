@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repo publishes five Julius Brussee agent skills for now: `caveman`, `interface-kit`, `grill-me`, `loop-factory`, and `junior-to-senior`. Treat it as an installable skill collection, not a product website.
+This repo publishes six Julius Brussee agent skills for now: `caveman`, `interface-kit`, `grill-me`, `loop-factory`, `junior-to-senior`, and `context-canary`. Treat it as an installable skill collection, not a product website.
 
 ## Editing Rules
 
