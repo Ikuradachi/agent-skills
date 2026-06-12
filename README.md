@@ -1,8 +1,8 @@
 # Julius Skills
 
-Six personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, and F*ck Slop.
+Seven personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, F*ck Slop, and Context Canary.
 
-This repo is shaped by six things:
+This repo is shaped by seven things:
 
 - **Caveman** - 70k-star token compression without technical loss. Small mouth, big brain.
 - **Interface Kit** - accessible, performant interfaces with strong aesthetic direction, not generic AI slop.
@@ -10,6 +10,7 @@ This repo is shaped by six things:
 - **Loop Factory** - spec-driven agent loop where tasks move through inbox → active → archive with a real review gate.
 - **Junior to Senior** - adversarial senior review that treats agent output as junior work and upgrades it with codebase + web research.
 - **F*ck Slop** - mechanical scan-and-rewrite loop that erases AI-writing tells from any text and lands it in the right register.
+- **Context Canary** - per-turn canary signal that makes silent context degradation visible, plus a recovery protocol when it trips.
 
 Point is control. Agents should be terse when talking, precise when building interfaces, calibrated when challenging plans, and disciplined when running build loops.
 
@@ -114,6 +115,19 @@ Use when you want:
 - a diagnosis table of which tells were found before the rewrite
 - register-aware output: academic article, tweet, reddit post, LinkedIn, email, blog, docs, marketing
 - no overcorrection — no fake typos, forced slang, or invented specifics
+
+### `context-canary`
+
+Early-warning system for long agent sessions. Installs a byte-stable first-line signal — the user's name, a turn counter, and an honest context self-check — so the moment the agent's hold on its instructions degrades (attention drift, compaction, truncation), the signal visibly dies. Comes with a trip protocol: checkpoint state to a file, re-anchor on project instructions, reset deliberately.
+
+Use when you want:
+
+- to know *when* a long session starts rotting instead of finding out from bad output
+- a zero-infrastructure health check that runs every single turn
+- compaction events surfaced the moment they happen
+- a disciplined recovery path (checkpoint → re-anchor → fresh session) instead of limping on
+
+Grounded in context-rot research (Chroma), lost-in-the-middle (Liu et al.), and instruction-drift findings — sources linked in the skill's references.
 
 ## Interface Kit Standard
 
