@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Julius Brussee — Software Engineer. Building tools that respect your time." width="100%">
+</p>
+
 # Julius Skills
 
 Seven personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, F*ck Slop, and Context Canary.

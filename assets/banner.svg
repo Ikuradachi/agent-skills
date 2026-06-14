@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1976 1051" width="1976" height="1051" role="img" aria-label="Julius Brussee — Software Engineer. Building tools that respect your time.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1976" height="1051" fill="url(#bg)"/>
+
+  <!-- faint arc, top-right -->
+  <circle cx="2040" cy="300" r="520" fill="none" stroke="#1c1c1c" stroke-width="2"/>
+
+  <!-- eyebrow -->
+  <text x="150" y="178" fill="#6b6b6b" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,Consolas,monospace" font-size="30" letter-spacing="12">SOFTWARE ENGINEER</text>
+
+  <!-- name -->
+  <text x="146" y="600" fill="#ededed" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="210" font-weight="700" letter-spacing="-4">Julius Brussee</text>
+
+  <!-- divider -->
+  <rect x="150" y="724" width="430" height="3" fill="#8a8a8a"/>
+
+  <!-- tagline -->
+  <text x="150" y="845" fill="#9a9a9a" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="56" font-weight="400">Building tools that respect your time.</text>
+
+  <!-- credits -->
+  <text x="150" y="945" fill="#6b6b6b" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,Consolas,monospace" font-size="32" letter-spacing="1">Creator of Caveman · 72,460★ on GitHub · Founding engineer at Stacklink</text>
+
+  <!-- bottom rule -->
+  <rect x="150" y="1030" width="1676" height="1" fill="#1a1a1a"/>
+</svg>
