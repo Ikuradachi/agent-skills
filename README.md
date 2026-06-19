@@ -4,9 +4,9 @@
 
 # Julius Skills
 
-Seven personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, F*ck Slop, and Context Canary.
+Eight personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, F*ck Slop, Context Canary, and Project X-Ray.
 
-This repo is shaped by seven things:
+This repo is shaped by eight things:
 
 - **Caveman** - 70k-star token compression without technical loss. Small mouth, big brain.
 - **Interface Kit** - accessible, performant interfaces with strong aesthetic direction, not generic AI slop.
@@ -15,6 +15,7 @@ This repo is shaped by seven things:
 - **Junior to Senior** - adversarial senior review that treats agent output as junior work and upgrades it with codebase + web research.
 - **F*ck Slop** - mechanical scan-and-rewrite loop that erases AI-writing tells from any text and lands it in the right register.
 - **Context Canary** - per-turn canary signal that makes silent context degradation visible, plus a recovery protocol when it trips.
+- **Project X-Ray** - deep-scan a project and write a structured analysis file for fast human and agent orientation.
 
 Point is control. Agents should be terse when talking, precise when building interfaces, calibrated when challenging plans, and disciplined when running build loops.
 
@@ -132,6 +133,17 @@ Use when you want:
 - a disciplined recovery path (checkpoint → re-anchor → fresh session) instead of limping on
 
 Grounded in context-rot research (Chroma), lost-in-the-middle (Liu et al.), and instruction-drift findings — sources linked in the skill's references.
+
+### `project-x-ray`
+
+Deep-scan a project's structure, dependencies, architecture, conventions, and domain, then write the findings into a structured `PROJECT_ANALYSIS.md`. One-time run that captures the context a newcomer — human or agent — would otherwise spend an hour piecing together.
+
+Use when you want:
+
+- fast orientation in an unfamiliar codebase
+- a written snapshot before a large refactor or handoff
+- agents to load project context from a file instead of re-scanning every session
+- an onboarding document that covers structure, tech stack, architecture, and conventions in one place
 
 ## Interface Kit Standard
 
