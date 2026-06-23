@@ -72,8 +72,8 @@ graph TD
 Scan configuration files and code samples to extract the team's conventions:
 
 - **Code style** — Indentation (tabs/spaces/size), naming convention (camelCase, snake_case, PascalCase for types), file naming pattern (kebab-case, PascalCase, snake_case).
-- **Commit conventions** — Check for `.commitlintrc`, commit message patterns in recent history, conventional commits (`feat:`, `fix:`, etc.).
-- **Branching model** — Check for branch protection config, common branch names (main/master/develop), PR templates.
+- **Commit conventions** — Check for `.commitlintrc` or other configuration files for conventional commits (do not scan git logs or history).
+- **Branching model** — Check for branch protection config or PR templates (do not scan git branches).
 - **CI/CD** — Detect `.github/workflows/`, `.gitlab-ci.yml`, `Jenkinsfile`, `.circleci/`, `bitbucket-pipelines.yml`, `azure-pipelines.yml`. Summarize what the pipeline does (lint, test, build, deploy) without dumping full YAML.
 - **Documentation** — Note existing docs: README, CONTRIBUTING, CHANGELOG, ADRs (`docs/adr/`), API docs, OpenAPI/Swagger specs.
 - **Agent instruction files** — Flag any files meant for AI agents: `CLAUDE.md`, `AGENTS.md`, `.cursorrules`, `.github/copilot-instructions.md`, `GEMINI.md`. Note their existence and one-line summary of what they instruct.
