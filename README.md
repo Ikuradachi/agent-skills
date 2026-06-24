@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="Julius Brussee — Software Engineer. Building tools that respect your time." width="100%">
 </p>
 
-# Julius Skills
+# Julius Skills (Modified for ikura's personal use.)
 
 Eight personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, F*ck Slop, Context Canary, and Project X-Ray.
 
@@ -24,7 +24,7 @@ Point is control. Agents should be terse when talking, precise when building int
 Install with `skills.sh`:
 
 ```bash
-npx skills@latest add JuliusBrussee/skills
+npx skills@latest add https://github.com/Ikuradachi/agent-skills
 ```
 
 Pick the skills you want for Claude Code, Codex, Gemini, Cursor, Windsurf, Cline, Copilot, or any agent supported by the installer.
