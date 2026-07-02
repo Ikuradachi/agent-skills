@@ -4,7 +4,7 @@ Deep-scan a codebase and write a structured `PROJECT_ANALYSIS.md` — the file a
 
 ## What it does
 
-One command triggers a five-phase scan: directory structure, dependency inventory, architecture mapping, convention extraction, and domain summary. Output lands in a single markdown file at the repo root. Subsequent agent sessions load that file instead of re-scanning — context reuse instead of context waste.
+One command triggers a six-phase scan: directory structure, dependency inventory, architecture mapping, convention extraction, domain summary, and consumption guidance. Output lands in a single markdown file at the repo root. Subsequent agent sessions load that file instead of re-scanning — context reuse instead of context waste.
 
 ## When to use
 
