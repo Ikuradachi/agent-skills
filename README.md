@@ -4,7 +4,7 @@
 
 # Julius Skills (Modified for ikura's personal use.)
 
-Eight personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, F*ck Slop, Context Canary, and Project X-Ray.
+Nine personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, F*ck Slop, Context Canary, Project X-Ray, and The Last 20%.
 
 This repo is shaped by eight things:
 
@@ -16,6 +16,7 @@ This repo is shaped by eight things:
 - **F*ck Slop** - mechanical scan-and-rewrite loop that erases AI-writing tells from any text and lands it in the right register.
 - **Context Canary** - per-turn canary signal that makes silent context degradation visible, plus a recovery protocol when it trips.
 - **Project X-Ray** - deep-scan a project and write a structured analysis file for fast human and agent orientation.
+- **The Last 20%** - finds and finishes the experiential layer agents skip: what the output reads like, which pages exist, first-run, defaults, the golden path.
 
 Point is control. Agents should be terse when talking, precise when building interfaces, calibrated when challenging plans, and disciplined when running build loops.
 
@@ -133,6 +134,18 @@ Use when you want:
 - a disciplined recovery path (checkpoint → re-anchor → fresh session) instead of limping on
 
 Grounded in context-rot research (Chroma), lost-in-the-middle (Liu et al.), and instruction-drift findings — sources linked in the skill's references.
+
+### `last-20-percent`
+
+Finds and finishes the last 20% of a built solution — the experiential layer agents skip. Agents decompose the noun ("wiki" → ingestion, search, LLM) and the experience of using the thing never appears in that decomposition, so it never becomes a task. This skill decomposes the *scene* instead: one concrete magic moment, walked step by step, with the residue specced at plumbing fidelity and hand-crafted golden artifacts set as the quality bar before any generator gets built.
+
+Use when you want:
+
+- builds that end with a product, not a technically-complete demo
+- the experiential work (content, IA, first-run, defaults, microcopy) specced as concretely as the plumbing
+- golden artifacts written by hand before the machinery that generates them
+- a final walk-through as the end user before anything is called done
+- an audit mode for existing solutions that work but feel flat
 
 ### `project-x-ray`
 
