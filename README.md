@@ -2,9 +2,9 @@
   <img src="assets/banner.svg" alt="Julius Brussee — Software Engineer. Building tools that respect your time." width="100%">
 </p>
 
-# Julius Skills
+# Julius Skills (Modified for ikura's personal use.)
 
-Eight personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, F*ck Slop, Context Canary, and The Last 20%.
+Nine personal agent skills for now: Caveman base, Interface Kit, Grill Me, Loop Factory, Junior to Senior, F*ck Slop, Context Canary, Project X-Ray, and The Last 20%.
 
 This repo is shaped by eight things:
 
@@ -15,6 +15,7 @@ This repo is shaped by eight things:
 - **Junior to Senior** - adversarial senior review that treats agent output as junior work and upgrades it with codebase + web research.
 - **F*ck Slop** - mechanical scan-and-rewrite loop that erases AI-writing tells from any text and lands it in the right register.
 - **Context Canary** - per-turn canary signal that makes silent context degradation visible, plus a recovery protocol when it trips.
+- **Project X-Ray** - deep-scan a project and write a structured analysis file for fast human and agent orientation.
 - **The Last 20%** - finds and finishes the experiential layer agents skip: what the output reads like, which pages exist, first-run, defaults, the golden path.
 
 Point is control. Agents should be terse when talking, precise when building interfaces, calibrated when challenging plans, and disciplined when running build loops.
@@ -24,7 +25,7 @@ Point is control. Agents should be terse when talking, precise when building int
 Install with `skills.sh`:
 
 ```bash
-npx skills@latest add JuliusBrussee/skills
+npx skills@latest add https://github.com/Ikuradachi/agent-skills
 ```
 
 Pick the skills you want for Claude Code, Codex, Gemini, Cursor, Windsurf, Cline, Copilot, or any agent supported by the installer.
@@ -145,6 +146,17 @@ Use when you want:
 - golden artifacts written by hand before the machinery that generates them
 - a final walk-through as the end user before anything is called done
 - an audit mode for existing solutions that work but feel flat
+
+### `project-x-ray`
+
+Deep-scan a project's structure, dependencies, architecture, conventions, and domain, then write the findings into a structured `PROJECT_ANALYSIS.md`. One-time run that captures the context a newcomer — human or agent — would otherwise spend an hour piecing together.
+
+Use when you want:
+
+- fast orientation in an unfamiliar codebase
+- a written snapshot before a large refactor or handoff
+- agents to load project context from a file instead of re-scanning every session
+- an onboarding document that covers structure, tech stack, architecture, and conventions in one place
 
 ## Interface Kit Standard
 
